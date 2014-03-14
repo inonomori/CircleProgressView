@@ -21,6 +21,8 @@
 		6884988718D2EFBE00DD14BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6884986918D2EFBE00DD14BC /* UIKit.framework */; };
 		6884988F18D2EFBE00DD14BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6884988D18D2EFBE00DD14BC /* InfoPlist.strings */; };
 		6884989118D2EFBE00DD14BC /* CircleProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6884989018D2EFBE00DD14BC /* CircleProgressTests.m */; };
+		6884989E18D2EFCC00DD14BC /* CircleProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6884989B18D2EFCC00DD14BC /* CircleProgressLayer.m */; };
+		6884989F18D2EFCC00DD14BC /* CircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6884989D18D2EFCC00DD14BC /* CircleProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		6884988C18D2EFBE00DD14BC /* CircleProgressTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CircleProgressTests-Info.plist"; sourceTree = "<group>"; };
 		6884988E18D2EFBE00DD14BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6884989018D2EFBE00DD14BC /* CircleProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleProgressTests.m; sourceTree = "<group>"; };
+		6884989A18D2EFCC00DD14BC /* CircleProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressLayer.h; sourceTree = "<group>"; };
+		6884989B18D2EFCC00DD14BC /* CircleProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressLayer.m; sourceTree = "<group>"; };
+		6884989C18D2EFCC00DD14BC /* CircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressView.h; sourceTree = "<group>"; };
+		6884989D18D2EFCC00DD14BC /* CircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,10 @@
 		6884986B18D2EFBE00DD14BC /* CircleProgress */ = {
 			isa = PBXGroup;
 			children = (
+				6884989A18D2EFCC00DD14BC /* CircleProgressLayer.h */,
+				6884989B18D2EFCC00DD14BC /* CircleProgressLayer.m */,
+				6884989C18D2EFCC00DD14BC /* CircleProgressView.h */,
+				6884989D18D2EFCC00DD14BC /* CircleProgressView.m */,
 				6884987418D2EFBE00DD14BC /* AppDelegate.h */,
 				6884987518D2EFBE00DD14BC /* AppDelegate.m */,
 				6884987718D2EFBE00DD14BC /* Main.storyboard */,
@@ -249,6 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6884989F18D2EFCC00DD14BC /* CircleProgressView.m in Sources */,
+				6884989E18D2EFCC00DD14BC /* CircleProgressLayer.m in Sources */,
 				6884987C18D2EFBE00DD14BC /* ViewController.m in Sources */,
 				6884987618D2EFBE00DD14BC /* AppDelegate.m in Sources */,
 				6884987218D2EFBE00DD14BC /* main.m in Sources */,
